@@ -1,0 +1,40 @@
+/* src/pages/About.css */
+.about-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-container h1 {
+  color: #000000;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  padding-top: 10px;  
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.about-container p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+.home-button{
+  margin-left: 350px;
+  margin-bottom: 50px;
+}
+.home-button:hover{
+  cursor: pointer;
+  background-color: rgb(0, 0, 0);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.home-button:active{
+  
+    transform: scale(0.95);
+  
+}

@@ -1,0 +1,76 @@
+.header {
+  position: relative;
+  background: linear-gradient(90deg, #4CAF50, #388E3C); /* Gradient for a modern look */
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-text {
+  font-size: 2rem; /* Increased font size */
+  color: #000000;
+  margin: 0 auto; /* Center the text horizontally */
+  text-align: center; /* Center text alignment */
+  flex-grow: 1; /* Expand to take up the remaining space */
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 30px;
+}
+
+.profile-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-modal {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.profile-modal-content {
+  padding: 0.5rem;
+}
+
+.profile-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-options li {
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.profile-options li:hover {
+  background-color: #f0f0f0;
+}
+
+.scroller-container {
+  position: relative;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  z-index: 1; /* Ensure it stays above other components */
+}
+
+.scroller-content {
+  max-width: 600px;
+  margin: 0 auto;
+}

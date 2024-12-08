@@ -1,0 +1,89 @@
+/* Calendar.css */
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.calendar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.calendar-container h1 {
+  margin-bottom: 20px;
+  color: #6200ea;
+  font-size: 2.5em;
+}
+
+.month-container {
+  margin-bottom: 40px;
+}
+
+.month-container h2 {
+  color: #333;
+  margin: 20px 0;
+  font-size: 1.8em;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-header {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #6200ea;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.calendar-day {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80px;
+  transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+}
+
+.calendar-day:hover {
+  transform: scale(1.05);
+  background-color: #f0f0f5;
+}
+
+.calendar-day.festival {
+  background-color: #ffe4b5;
+  border: 2px solid #ffa500;
+}
+
+.date-number {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.festival-name {
+  margin-top: 5px;
+  font-size: 0.8em;
+  color: #6200ea;
+  font-weight: bold;
+}
+
+.empty {
+  background: transparent;
+  border: none;
+}

@@ -1,0 +1,34 @@
+.user-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.user-dashboard-links ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.user-dashboard-links li {
+  margin: 10px 0;
+}
+
+.user-dashboard-links a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 16px;
+}
+
+.user-dashboard-links a:hover {
+  text-decoration: underline;
+}

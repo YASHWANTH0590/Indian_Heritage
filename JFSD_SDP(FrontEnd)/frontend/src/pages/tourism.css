@@ -1,0 +1,94 @@
+body {
+  margin: 0; /* Remove default margin for body */
+  font-family: Arial, sans-serif; /* Optional: Ensure consistent font styling */
+}
+.head {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 465px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  
+  .places-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .place-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .place-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .place-content {
+    padding: 15px;
+  }
+  
+  .place-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007BFF;
+  }
+  
+  .place-description {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .place-location {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .place-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .place-button:hover {
+    background-color: #0056b3;
+  }
+  .custom-button-container {
+    margin-top: auto;
+  }
+  
+  .custom-button-container button {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .custom-button-container button:hover {
+    background-color: #7d3b01;
+  }
+  
